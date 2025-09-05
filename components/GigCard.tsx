@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { ExternalLink, Bookmark, BookmarkCheck, MapPin, Clock, DollarSign } from 'lucide-react';
+import { ExternalLink, Bookmark, Check, MapPin, Clock, DollarSign } from 'lucide-react';
 import { Gig } from '@/lib/types';
 import { formatDate, truncateText, cn } from '@/lib/utils';
 
@@ -58,7 +58,10 @@ export function GigCard({ gig, onSave, isSaved = false }: GigCardProps) {
           className="p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200"
         >
           {saved ? (
-            <BookmarkCheck className="w-5 h-5 text-blue-600" />
+            <div className="relative">
+              <Bookmark className="w-5 h-5 text-blue-600 fill-current" />
+              <Check className="w-3 h-3 text-white absolute top-0.5 left-0.5" />
+            </div>
           ) : (
             <Bookmark className="w-5 h-5 text-gray-400" />
           )}
