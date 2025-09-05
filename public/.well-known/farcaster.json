@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "GigFlow",
+    "subtitle": "Built with Zara",
+    "description": "GigFlow is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://79a367756b084360894baba2ced70abb-fjrc.vercel.app",
+    "splashImageUrl": "https://79a367756b084360894baba2ced70abb-fjrc.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://79a367756b084360894baba2ced70abb-fjrc.vercel.app/image.png",
+    "tagline": "GigFlow",
+    "screenshotUrls": [
+      "https://79a367756b084360894baba2ced70abb-fjrc.vercel.app/screenshot.png",
+      "https://79a367756b084360894baba2ced70abb-fjrc.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://79a367756b084360894baba2ced70abb-fjrc.vercel.app/api/webhook"
+  }
+}
